@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37d7b9baca3b543b6a8a0e40415e49c2
-      internalID: 1410087761
+      spriteID: ba9732f186bcc42588d725903b7a8fe3
+      internalID: 495127108
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08462eecb696c4050a6cd93dbfa87b57
-      internalID: -1450686216
+      spriteID: a08e847119e764ee9a8fabd59fe30736
+      internalID: -717773633
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cce8826bfbca40db9679aacf0df3ef0
-      internalID: -508025097
+      spriteID: 523813bf088a042c886ae06a61b824ae
+      internalID: -1747919433
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6919ac1ae99a84674bd4cfad3d96a9df
-      internalID: 1412791799
+      spriteID: 482668077fc594054bf915988e31e45d
+      internalID: 157744479
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      alpoca andando_0: 1410087761
-      alpoca andando_3: 1412791799
-      alpoca andando_1: -1450686216
-      alpoca andando_2: -508025097
+      alpoca andando_0: 495127108
+      alpoca andando_3: 157744479
+      alpoca andando_1: -717773633
+      alpoca andando_2: -1747919433
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

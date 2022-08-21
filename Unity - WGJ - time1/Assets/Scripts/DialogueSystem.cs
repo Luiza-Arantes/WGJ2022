@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class DialogueSystem : MonoBehaviour
@@ -9,13 +10,18 @@ public class DialogueSystem : MonoBehaviour
     public string[] lines;
     public float textSpeed;
 
+    private Image image;
     private int index;
 
     // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+
+        gameObject.SetActive(false);
+
+        //image = GetComponent<Image>();
+        //image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
     }
 
     // Update is called once per frame
@@ -33,8 +39,10 @@ public class DialogueSystem : MonoBehaviour
         
     }
 
-    void StartDialogue() {
-        index = 0;
+    public void StartDialogue(TextAsset text) {
+        index = 0;  
+
+        gameObject.SetActive(true);     
         StartCoroutine(TypeLine());
     }
 
@@ -55,14 +63,6 @@ public class DialogueSystem : MonoBehaviour
             StartCoroutine(TypeLine());
         } else {
             gameObject.SetActive(false);
-        }
-    }
-
-    public void OnTriggerEnter2D(Collider2D other) // O collider nao esta funcionando 
-    {
-        if (other.gameObject.tag == "Player") //(other.CompareTag("Player"))
-        {
-            StartDialogue();
         }
     }
 }

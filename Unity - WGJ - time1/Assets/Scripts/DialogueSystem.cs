@@ -29,7 +29,7 @@ public class DialogueSystem : MonoBehaviour
         foreach (GameObject choice in choices) {
             
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
-            choicesText[index].gameObject.SetActive(false);
+            choice.gameObject.SetActive(false);
             index ++;
         }
 
@@ -104,6 +104,7 @@ public class DialogueSystem : MonoBehaviour
         }
 
         for (int i = index; i < choices.Length; i++) {
+            // choices[i].gameObject.SetActive(true);
             choicesText[i].gameObject.SetActive(false);
         }
     }
@@ -115,7 +116,7 @@ public class DialogueSystem : MonoBehaviour
         foreach (GameObject choice in choices) {
             
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
-            choicesText[index].gameObject.SetActive(false);
+            choice.gameObject.SetActive(false);
             index ++;
         }
 

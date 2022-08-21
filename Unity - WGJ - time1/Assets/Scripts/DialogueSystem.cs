@@ -57,4 +57,12 @@ public class DialogueSystem : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public void OnTriggerEnter2D(Collider2D other) // O collider nao esta funcionando 
+    {
+        if (other.gameObject.tag == "Player") //(other.CompareTag("Player"))
+        {
+            StartDialogue();
+        }
+    }
 }

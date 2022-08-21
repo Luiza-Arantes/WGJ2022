@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    [Header("Dialogue Box")]
+    [SerializeField] private DialogueSystem dialogueBox;
+
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkFile;
 
@@ -24,12 +27,11 @@ public class DialogueTrigger : MonoBehaviour
 
     void Update() {
 
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E)) {
-            DialogueSystem dialogue = GetComponentInChildren<DialogueSystem>();
-            dialogue.StartDialogue(inkFile);
+        if (isPlayerInRange && !dialogueBox.isActiveAndEnabled && Input.GetKeyDown(KeyCode.E)) {
+            dialogueBox.StartDialogue(inkFile);
         }
-
     }
+
 }
 
     

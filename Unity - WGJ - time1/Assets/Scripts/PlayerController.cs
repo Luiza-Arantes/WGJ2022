@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool canMove = true; 
 
     private Rigidbody2D body;
 
@@ -27,6 +28,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        if (!canMove) {
+            return;
+        }
+
         if (horizontal != 0 && vertical != 0) // Check for diagonal movement
         {
             // limit movement speed diagonally, so you move at 70% speed

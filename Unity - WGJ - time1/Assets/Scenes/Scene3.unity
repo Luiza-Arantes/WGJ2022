@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2157177787251920996, guid: 5d601155e18d35449a7dc3b44d2d6e4d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 2157177787251920997, guid: 5d601155e18d35449a7dc3b44d2d6e4d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -231,6 +235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4266013247367931580, guid: 69a8c1b50a70f3b45b1fbc9ee405cc7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 7385195296729212140, guid: 69a8c1b50a70f3b45b1fbc9ee405cc7d, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -376,6 +384,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5817202042271230996, guid: 58bbd0c6eb3b1354489417a3317a593a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 7721156706758800046, guid: 58bbd0c6eb3b1354489417a3317a593a, type: 3}
       propertyPath: m_Name
       value: Player

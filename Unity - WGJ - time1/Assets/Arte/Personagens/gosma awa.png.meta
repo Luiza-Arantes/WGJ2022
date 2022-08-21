@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b24062b5244444ead9f9da949b694967
+guid: a296c4ea80f3d494c8b4f12f43739abb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lu_0
+      name: gosma awa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ffcd68b4224624abc4892690d45810
+      internalID: 1914304516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosma awa_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2cf987a5d00fc4c84e957df49b6e61
+      internalID: 819439416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosma awa_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05ca4c81f1b7246970ec31a952723e
+      internalID: -215974842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosma awa_3
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ecb0a1fd56fa43488c8346c0869e45b
-      internalID: -112504338
+      spriteID: 06e7723279edfe94f9acae96d91a7103
+      internalID: -1400370023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lu_1
+      name: gosma awa_4
       rect:
         serializedVersion: 2
         x: 160
@@ -139,14 +202,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 780ad1ad1e6c4ac488598d704765cca9
-      internalID: 573718470
+      spriteID: f98ca86e3699f0a49a7b6989f46f80e1
+      internalID: 318894858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lu_2
+      name: gosma awa_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e434e5d9be2dd448979d9eb13bbda8a
+      internalID: -475297769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosma awa_6
       rect:
         serializedVersion: 2
         x: 0
@@ -160,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc893180d8012f4c98f2d53bac19abd
-      internalID: 331020532
+      spriteID: d9298e1d38bedd04eb39c7cecdec6959
+      internalID: 2075587136
       vertices: []
       indices: 
       edges: []
@@ -177,9 +261,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lu_2: 331020532
-      lu_1: 573718470
-      lu_0: -112504338
+      gosma awa_5: -475297769
+      gosma awa_4: 318894858
+      gosma awa_1: 819439416
+      gosma awa_3: -1400370023
+      gosma awa_6: 2075587136
+      gosma awa_0: 1914304516
+      gosma awa_2: -215974842
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

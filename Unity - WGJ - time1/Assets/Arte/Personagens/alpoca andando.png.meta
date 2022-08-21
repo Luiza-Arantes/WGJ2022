@@ -107,10 +107,10 @@ TextureImporter:
       name: alpoca andando_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 330
-        width: 130
-        height: 290
+        x: 0
+        y: 320
+        width: 160
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: alpoca andando_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 330
-        width: 140
-        height: 300
+        x: 160
+        y: 320
+        width: 160
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: alpoca andando_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 330
-        width: 130
-        height: 290
+        x: 320
+        y: 320
+        width: 160
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: alpoca andando_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 10
-        width: 130
-        height: 300
+        x: 0
+        y: 0
+        width: 160
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

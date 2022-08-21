@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b24062b5244444ead9f9da949b694967
+guid: dd249edf9d75feb4aa542f868cc896ef
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lu_0
+      name: gosma_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ecb0a1fd56fa43488c8346c0869e45b
-      internalID: -112504338
+      spriteID: c91d446eb9848694e8c59ba125b163fa
+      internalID: 554254995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lu_1
+      name: gosma_1
       rect:
         serializedVersion: 2
         x: 160
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 780ad1ad1e6c4ac488598d704765cca9
-      internalID: 573718470
+      spriteID: c177d997c24691445a87627a45809084
+      internalID: -1124606859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lu_2
+      name: gosma_2
       rect:
         serializedVersion: 2
         x: 0
@@ -160,8 +160,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc893180d8012f4c98f2d53bac19abd
-      internalID: 331020532
+      spriteID: fbefed6229246c84487e15f5ea67e92f
+      internalID: 2003025723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gosma_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6f7da90acc214491178e13dcda8f0
+      internalID: 1573813698
       vertices: []
       indices: 
       edges: []
@@ -177,9 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lu_2: 331020532
-      lu_1: 573718470
-      lu_0: -112504338
+      gosma_1: -1124606859
+      gosma_0: 554254995
+      gosma_2: 2003025723
+      gosma_3: 1573813698
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

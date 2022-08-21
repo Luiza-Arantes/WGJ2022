@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b24062b5244444ead9f9da949b694967
+guid: 256f889841d1bc342bc2b343fe32409f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lu_0
+      name: gosma mor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 160
-        height: 160
+        y: 320
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,41 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ecb0a1fd56fa43488c8346c0869e45b
-      internalID: -112504338
+      spriteID: 951dfa6cc43ccb84fa3c527b8a1ff553
+      internalID: 1939836282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lu_1
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 780ad1ad1e6c4ac488598d704765cca9
-      internalID: 573718470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lu_2
+      name: gosma mor_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 160
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc893180d8012f4c98f2d53bac19abd
-      internalID: 331020532
+      spriteID: 05abe16a2b69dbc4f8ccdc217c09f509
+      internalID: -921011338
       vertices: []
       indices: 
       edges: []
@@ -177,9 +156,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lu_2: 331020532
-      lu_1: 573718470
-      lu_0: -112504338
+      gosma mor_1: -921011338
+      gosma mor_0: 1939836282
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

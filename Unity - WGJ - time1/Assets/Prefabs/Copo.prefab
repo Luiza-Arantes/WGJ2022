@@ -616,7 +616,6 @@ GameObject:
   - component: {fileID: 3899427713658955578}
   - component: {fileID: 7876205870013502883}
   - component: {fileID: 2238325739074209352}
-  - component: {fileID: 3899427713658955579}
   m_Layer: 0
   m_Name: Copo
   m_TagString: Untagged
@@ -731,21 +730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 2465218667804136953}
-  inkFile: {fileID: 4900000, guid: 023fb34dbbb5c5546b5b5eb52e7090a0, type: 3}
---- !u!114 &3899427713658955579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7733555033687680362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 962f07dc13423394291cc26f74c26bb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueBox: {fileID: 0}
-  inkFile: {fileID: 4900000, guid: 023fb34dbbb5c5546b5b5eb52e7090a0, type: 3}
+  inkFile: {fileID: 4900000, guid: 27d18e888ace7b341960c2c30237dbfa, type: 3}
 --- !u!1 &7860486048416303937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1103,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -300
       objectReference: {fileID: 0}
+    - target: {fileID: 8773978607996481468, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773978607996481468, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773978607996481468, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773978607996481469, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: textSpeed
+      value: 0.095
+      objectReference: {fileID: 0}
     - target: {fileID: 8773978607996481469, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
       propertyPath: choices.Array.size
       value: 3
@@ -1134,6 +1135,22 @@ PrefabInstance:
       propertyPath: choices.Array.data[2]
       value: 
       objectReference: {fileID: 7860486048416303937}
+    - target: {fileID: 8773978609211842157, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773978609211842157, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 70bc950a9b728e24888c9d08d609c487, type: 2}
+    - target: {fileID: 8773978609211842157, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773978609211842157, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5314781541038210100, guid: 70bc950a9b728e24888c9d08d609c487, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a17cd45729adad408627f1f69a5de30, type: 3}
 --- !u!224 &2465218667121479737 stripped

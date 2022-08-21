@@ -17,6 +17,7 @@ public class DialogueSystem : MonoBehaviour
     private Story currentStory;
     private string currentLine;
     private GameObject player;
+    private bool isChoosing = false;
 
     // Start is called before the first frame update
     void Start()
@@ -45,11 +46,13 @@ public class DialogueSystem : MonoBehaviour
             if (textComponent.text == currentLine) {
                 NextLine();
             } else {
-                StopAllCoroutines();
-                textComponent.text = currentLine;
+
+                if(!isChoosing) {
+                    StopAllCoroutines();
+                    textComponent.text = currentLine;
+                }
             }
         }
-        
     }
 
     public void StartDialogue(TextAsset inkJson) {
@@ -69,25 +72,37 @@ public class DialogueSystem : MonoBehaviour
         foreach (char character in currentLine.ToCharArray()) {
             textComponent.text += character;
             yield return new WaitForSeconds(textSpeed);
-        } 
-        
+        }   
     }
 
     void NextLine() {
 
-        if (currentStory.canContinue) {
-            currentLine = currentStory.Continue();
-            textComponent.text = string.Empty;
+        if (currentStory.currentChoices.Count > 0) {
 
-            displayChoices();
-            StartCoroutine(TypeLine());
+            if(!isChoosing){
+                textComponent.text = string.Empty;
+                displayChoices();
+            }
+
+        } else if (currentStory.canContinue) {
+
+            if(!isChoosing) {
+                currentLine = currentStory.Continue();
+                textComponent.text = string.Empty;
+
+                StartCoroutine(TypeLine());
+            }
         } else {
-            player.GetComponent<PlayerController>().canMove = true;
-            gameObject.SetActive(false);
+
+            // if (!isChoosing) {
+                player.GetComponent<PlayerController>().canMove = true;
+                gameObject.SetActive(false);
+            // }
         }
     }
 
     void displayChoices() {
+        isChoosing = true;
 
         textComponent.text = string.Empty;
         List<Choice> currentChoices = currentStory.currentChoices;
@@ -98,19 +113,20 @@ public class DialogueSystem : MonoBehaviour
 
         int index = 0;
         foreach (Choice choice in currentChoices) {
+            choices[index].gameObject.SetActive(true);
             choicesText[index].gameObject.SetActive(true);
             choicesText[index].text = choice.text;
             index ++;
         }
 
         for (int i = index; i < choices.Length; i++) {
-            // choices[i].gameObject.SetActive(true);
             choicesText[i].gameObject.SetActive(false);
         }
     }
 
     public void MakeChoice(int choiceIndex) {
         currentStory.ChooseChoiceIndex(choiceIndex);
+        isChoosing = false;
 
         int index = 0;
         foreach (GameObject choice in choices) {

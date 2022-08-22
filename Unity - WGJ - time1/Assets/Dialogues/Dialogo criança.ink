@@ -1,13 +1,17 @@
 -> main
 
 === main ===
-Eu… eu não consigo me mexer… # speaker: Luzinha
+# speaker: Luzinha
+Eu… eu não consigo me mexer…
 
-Parabéns, você tem paralisia do sono! Acho que você vai ficar presa aqui por um tempinho. # speaker: Alpaca
+# speaker: Alpaca
+Parabéns, você tem paralisia do sono! Acho que você vai ficar presa aqui por um tempinho.
 
-Quem é você? # speaker: Luzinha
+# speaker: Luzinha
+Quem é você?
 
-Sou a sua alucinação. # speaker: Alpaca
+# speaker: Alpaca
+Sou a sua alucinação.
 
 ->END
 

@@ -1,9 +1,9 @@
 -> main
 
 === main ===
-Alpaca: Bolório?
+Alpaca: Bolório? 
 ...
-É... isso deve ser divertido.
+É... isso deve ser divertido. # speaker: Alpaca
 ->END
 
 

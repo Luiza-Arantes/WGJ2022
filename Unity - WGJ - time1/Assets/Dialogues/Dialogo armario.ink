@@ -2,7 +2,8 @@
 
 === main ===
 #beforeCup: true
-Que? Você quer se esconder em mim? Mas eu nem te conheço direito! Me leva pra jantar antes. #speaker: Armario
+#speaker: Armario
+Que? Você quer se esconder em mim? Mas eu nem te conheço direito! Me leva pra jantar antes.
 
 #beforeCup: false
 #speaker: Armario

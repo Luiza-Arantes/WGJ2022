@@ -73,7 +73,6 @@ public class DialogueSystem : MonoBehaviour
         player.GetComponent<PlayerController>().canMove = false;
 
         currentStory = new Story(inkJson.text);
-        ChangeSpeaker();
         NextLine();
         
         gameObject.SetActive(true);     
@@ -92,7 +91,10 @@ public class DialogueSystem : MonoBehaviour
     void ChangeSpeaker() {
 
         currentTags = currentStory.currentTags;
-        Debug.Log(currentTags);
+
+        if(currentTags.Count > 0) {
+            Debug.Log(currentTags[0]);
+        }
 
         foreach (string tag in currentTags){
 
@@ -120,6 +122,7 @@ public class DialogueSystem : MonoBehaviour
 
     void NextLine() {
 
+
         if (currentStory.currentChoices.Count > 0) {
 
             if(!isChoosing){
@@ -131,6 +134,8 @@ public class DialogueSystem : MonoBehaviour
 
             if(!isChoosing) {
                 currentLine = currentStory.Continue();
+                ChangeSpeaker();
+                
                 textComponent.text = string.Empty;
 
                 StartCoroutine(TypeLine());

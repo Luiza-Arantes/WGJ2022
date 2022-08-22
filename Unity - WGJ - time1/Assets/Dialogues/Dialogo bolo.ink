@@ -1,9 +1,14 @@
 -> main
 
 === main ===
-Bolório? # speaker: Alpaca
-... # speaker: Alpaca
-É... isso deve ser divertido. # speaker: Alpaca
+#speaker: Alpaca
+Bolório?
+
+#speaker: Alpaca
+...
+
+#speaker: Alpaca
+É... isso deve ser divertido.
 ->END
 
 

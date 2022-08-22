@@ -4,24 +4,14 @@ using UnityEngine;
 
 public class ItemScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public IemImagem Im;
 
     public void OnTriggerEnter2D(Collider2D other) // Nao esta funcionando
     {
         if (other.gameObject.tag == "Player")
-        {
-
+        { 
             gameObject.SetActive(false);
+            Im.Imagem();
         }
     }
 }

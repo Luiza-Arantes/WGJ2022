@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using Ink.Runtime;
 using TMPro;
@@ -7,8 +8,19 @@ using TMPro;
 public class DialogueSystem : MonoBehaviour
 {
     [Header("Dialogue UI")]
+    public Image CharacterFrame;
     public TextMeshProUGUI textComponent;
     public float textSpeed;
+
+    [Header("Frames")]
+    [SerializeField] private Sprite alpacaFrame;
+    [SerializeField] private Sprite gatoFrame;
+    [SerializeField] private Sprite gosmaFrame;
+    [SerializeField] private Sprite ursoFrame;
+    [SerializeField] private Sprite armarioFrame;
+    [SerializeField] private Sprite copoFrame;
+    [SerializeField] private Sprite luzinhaFrame;
+    [SerializeField] private Sprite jogadorFrame;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
@@ -16,6 +28,7 @@ public class DialogueSystem : MonoBehaviour
 
     private Story currentStory;
     private string currentLine;
+    private List<string> currentTags = new List<string>();
     private GameObject player;
     private bool isChoosing = false;
 
@@ -60,6 +73,7 @@ public class DialogueSystem : MonoBehaviour
         player.GetComponent<PlayerController>().canMove = false;
 
         currentStory = new Story(inkJson.text);
+        ChangeSpeaker();
         NextLine();
         
         gameObject.SetActive(true);     
@@ -73,6 +87,35 @@ public class DialogueSystem : MonoBehaviour
             textComponent.text += character;
             yield return new WaitForSeconds(textSpeed);
         }   
+    }
+
+    void ChangeSpeaker() {
+
+        currentTags = currentStory.currentTags;
+        Debug.Log(currentTags);
+
+        foreach (string tag in currentTags){
+
+            if (tag.Contains("speaker")) {
+                if (tag.Contains("Gato")) {
+                    CharacterFrame.sprite = gatoFrame;
+                } else if (tag.Contains("Gosma")) {
+                    CharacterFrame.sprite = gosmaFrame;
+                } else if (tag.Contains("Urso")) {
+                    CharacterFrame.sprite = ursoFrame;
+                } else if (tag.Contains("Armario")) {
+                    CharacterFrame.sprite = armarioFrame;
+                } else if (tag.Contains("Copo")) {
+                    CharacterFrame.sprite = copoFrame;
+                } else if (tag.Contains("Luzinha")) {
+                    CharacterFrame.sprite = luzinhaFrame;
+                } else if (tag.Contains("Jogador")) {
+                    CharacterFrame.sprite = jogadorFrame;
+                } else {    // Alpaca
+                    CharacterFrame.sprite = alpacaFrame;
+                }
+            }
+        }
     }
 
     void NextLine() {

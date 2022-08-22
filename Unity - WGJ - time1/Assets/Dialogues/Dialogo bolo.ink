@@ -2,10 +2,12 @@
 
 === main ===
 #speaker: Alpaca
-Alpaca: Bolório? 
-#speaker: Gato
-... 
-#speaker: Gato
+Bolório?
+
+#speaker: Alpaca
+...
+
+#speaker: Alpaca
 É... isso deve ser divertido.
 ->END
 

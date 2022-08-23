@@ -1,39 +1,46 @@
 -> main
 
 === main ===
-#beforeCup: true
-#speaker: Armario
-Que? Você quer se esconder em mim? Mas eu nem te conheço direito! Me leva pra jantar antes.
+#beforeDesejo: true
+#speaker: Urso
+Você quer sair do sonho? Eu posso te ajudar, mas você sabe como as coisas funcionam, eu vou precisar de um favorzinho seu.
 
-#beforeCup: false
-#speaker: Armario
-Você precisa de ajuda para pegar água e quer que eu te dê meu copo? O MEU COPO?
+#speaker: Urso
+Sabe, eu sempre quis ser um urso de verdade, grande e assustador. 
 
-#speaker: Armario
-Bom, até poderia te dar, mas você sabe como armários são… eu gosto muito de charadas, assim como todo armário.
+#speaker: Urso
+Olha para mim, eu sou só uma pelúcia, não posso fazer muito aqui nesse sonho e se você me ajudar podemos sair daqui juntos. Topa?
 
-#speaker: Armario
-Então, eu tenho uma charada para você e duvido muito que você acerte. Lá vai:
+#speaker: Alpaca
+Vou ver o que consigo fazer.
 
-#speaker: Armario
-O que é rápido como uma lontra molhada, frágil como um ovo e faz barulho de rã?
+#beforeDesejo: false
+#speaker: Urso
+Muito obrigado, amigo, você é um amigo!
 
-    *[Um gambá descendo de tobogã.]
-        #speaker: Armario
-        Ah… não é isso, vou te dar mais uma chance.
-    *[Uma airfryer à prova d’água.]
-        #speaker: Armario
-        Você não acha isso específico demais? Bom, tenta mais uma vez.
-    *[Marquinhos, o moço do salgadinho.]
-        #speaker: Armario
-        Como assim?
-        
-#speaker: Armario 
--Quer saber, fiquei com pena, você é muito ruim nisso. Pega o meu copo, não por você ser bom com charadas, mas porque eu nem sei se você sabe usar um copo. Deve ser engraçado!
+#speaker: Alpaca
+Acabei de perceber que podia ter usado esse desejo para sair do sonho… sei como a gosma se sente.
 
-#afterCup: true
-#speaker: Armario
-E aí? Descobriu como usar o copo?
+#speaker: Urso
+Que?
+
+#speaker: Alpaca
+Nada não
+
+#speaker: Urso
+Bom, agora vou cumprir minha parte do acordo, não se preocupa, vou te ajudar a sair daqui.
+
+#speaker: Urso
+Isso pode ser um choque pra você, mas nós não estamos apenas em um sonho… Nós estamos em um sonho dentro de um jogo.
+
+#speaker: Alpaca
+QUE?
+
+#speaker: Urso
+É isso mesmo que você ouviu. E controlando esse jogo tem um ser muito mais poderoso que qualquer um por aqui, até mesmo o Bolório.
+
+#speaker: Urso
+Se você convencer esse ser, talvez ele possa nos tirar daqui.
 
 ->END
 

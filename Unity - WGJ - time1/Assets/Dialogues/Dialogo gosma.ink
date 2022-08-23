@@ -15,7 +15,7 @@ Salve Bolório, veio aqui para aprender sobre seus ensinamentos?
        Mas o que você queria mesmo?
 
 #speaker: Alpaca
-Você consegue transformar meu amigo, Urso, em um urso de verdade?
+-Você consegue transformar meu amigo, Urso, em um urso de verdade?
 
 #speakerGosma
 Por mais estranho que pareça, sim! Eu tenho um pedido de uma estrela cadente guardado aqui e posso te dar se…

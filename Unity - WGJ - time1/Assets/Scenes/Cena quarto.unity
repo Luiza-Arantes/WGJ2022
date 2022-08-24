@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 336971924}
   - component: {fileID: 336971926}
   - component: {fileID: 336971925}
+  - component: {fileID: 336971927}
   m_Layer: 0
   m_Name: cantinho
   m_TagString: Untagged
@@ -450,6 +451,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &336971927
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336971923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &444728498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,6 +2639,7 @@ GameObject:
   - component: {fileID: 1674489674}
   - component: {fileID: 1674489676}
   - component: {fileID: 1674489675}
+  - component: {fileID: 1674489677}
   m_Layer: 0
   m_Name: parede
   m_TagString: Untagged
@@ -3399,6 +3417,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1674489677
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674489673}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &1777788043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3684,6 +3718,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1672848199, guid: 86e6ced5982cceb479922654138802b4, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7425535
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672848199, guid: 86e6ced5982cceb479922654138802b4, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.54536223
+      objectReference: {fileID: 0}
     - target: {fileID: 2704629816463090419, guid: 86e6ced5982cceb479922654138802b4, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -2469,6 +2469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653086076}
   - component: {fileID: 1653086075}
+  - component: {fileID: 1653086077}
   m_Layer: 0
   m_Name: mesinha
   m_TagString: Untagged
@@ -2543,6 +2544,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1653086077
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653086074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.034419537, y: 0.0114732385}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9311609, y: 0.9770535}
+  m_EdgeRadius: 0
 --- !u!1 &1658119605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,6 +3265,7 @@ GameObject:
   - component: {fileID: 1815582113}
   - component: {fileID: 1815582115}
   - component: {fileID: 1815582114}
+  - component: {fileID: 1815582116}
   m_Layer: 0
   m_Name: cantinho
   m_TagString: Untagged
@@ -3435,6 +3463,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1815582116
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815582112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1959143888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,6 +3574,7 @@ GameObject:
   - component: {fileID: 1966170373}
   - component: {fileID: 1966170375}
   - component: {fileID: 1966170374}
+  - component: {fileID: 1966170376}
   m_Layer: 0
   m_Name: parede
   m_TagString: Untagged
@@ -4287,6 +4332,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1966170376
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966170372}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &2118926583
 GameObject:
   m_ObjectHideFlags: 0

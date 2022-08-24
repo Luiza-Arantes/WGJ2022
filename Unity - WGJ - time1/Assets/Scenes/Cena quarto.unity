@@ -4242,6 +4242,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2238325739074209352, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: inkFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 42f33d3f3ef79704fb681bdfdae3ef2e, type: 3}
+    - target: {fileID: 2465218667804136953, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: textSpeed
+      value: 0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465218668747007017, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465218668747007017, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 70bc950a9b728e24888c9d08d609c487, type: 2}
+    - target: {fileID: 2465218668747007017, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2465218668747007017, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5314781541038210100, guid: 70bc950a9b728e24888c9d08d609c487, type: 2}
     - target: {fileID: 3899427713658955578, guid: e4ec02a56dbd52741b4ee28d2c6eaee6, type: 3}
       propertyPath: m_Sprite
       value: 

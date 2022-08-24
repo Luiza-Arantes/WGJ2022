@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 0b74b0b1b6012403c95350ec22d301ab
+  - enabled: 1
+    path: Assets/Scenes/Cena quarto.unity
+    guid: 288b48e373ee21d4aaa9230ae49c8cde
+  - enabled: 1
+    path: Assets/Scenes/Cena gosma.unity
+    guid: 287ccf4cd7210ea4b8c56535cac41c91
+  - enabled: 1
+    path: Assets/Scenes/Cena copo.unity
+    guid: c3f2ee4d0a653954bb9b0b19be62f7ee
   m_configObjects: {}
